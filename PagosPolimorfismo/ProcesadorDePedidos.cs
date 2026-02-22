@@ -32,14 +32,12 @@ namespace PagosPolimorfismo
 
             if (resultado) 
             {
-                Console.WriteLine("Pedido enviado al almacen. !G");
+                Console.WriteLine("Pedido enviado al almacen. !Gracias Por su Compra!!!");
             }
             else
             {
                 Console.WriteLine("Pedido pendiente de pago. Por"); 
             }
-
-
 
 		}
 	}

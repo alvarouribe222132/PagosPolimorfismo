@@ -67,3 +67,8 @@ class Program
 	}
 
 }
+
+
+//UNA ENTIDAD de Software debe estar abierta para extencion pero cerrada para modificacion (Open/Closed Principle)
+//--> esto significa que el codigo existente no debe ser modificado para agregar nuevas funcionalidades,
+//sino que se deben crear nuevas clases que implementen las interfaces existentes, lo que permite una mayor flexibilidad y mantenibilidad del software.
