@@ -35,7 +35,7 @@ class Program
 		//variable Polimorfica: puede c guardar cualquiera de las implementaciones de IPagoService
 		IPagoService metodoSeleccionado = null;
 
-		//Factory simple  (Fabica d Objetos)
+		//Factory simple  (Fabica de Objetos)
 			switch (opcion)
 		{
 			case "1":
@@ -63,9 +63,7 @@ class Program
 		var procesador = new ProcesadorDePedidos(metodoSeleccionado);
 		procesador.FinalizarPedido(totalCompra);
 
-		Console.Readkey();
+		Console.ReadKey();
 	}
-
-}
 
 }
